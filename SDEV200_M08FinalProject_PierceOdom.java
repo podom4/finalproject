@@ -95,7 +95,7 @@ public class GameM implements ActionListener {
 		
 		}
 		
-		String[] b = {":)","X","O","":O"",""/|\",""(O.O)"",""o0o"",""<^>"",""ABC"","123"};
+		String[] b = {":)","X","O"","":O"",""/|\",""(O.O)"",""o0o"",""<^>"",""ABC"",""POP""};
 		String[] c = {"square","circle","rectangle","heart","diamond","clover","spade","triangle","polygon","hexagon"};
 		if(what) a=c;
 		else a=b;
