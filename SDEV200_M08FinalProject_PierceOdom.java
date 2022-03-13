@@ -95,7 +95,7 @@ public class GameM implements ActionListener {
 		
 		}
 		
-		String[] b = {":)","X","O",":O","/|\",":(","IOI","o0o","ITI","123"};
+		String[] b = {":)","X","O",":O","odo","nmn","l1l","o0o","pqd","123"};
 		String[] c = {"square","circle","rectangle","heart","diamond","clover","spade","triangle","polygon","hexagon"};
 		if(what) a=c;
 		else a=b;
@@ -119,7 +119,7 @@ public class GameM implements ActionListener {
 	}
 	public void hideField(int x){
 		for(int i=0;i<(x*2);i++){
-			/*if(boardQ[i]==0)*/ btn[i].setText("");		
+			btn[i].setText("");		
 		}
 		shown=false;
 	}
@@ -141,7 +141,7 @@ public class GameM implements ActionListener {
 		}
 		shown=true;
 	}
-	void waitABit(){//this was an attempt at fixing the glitch i told you about
+	void waitABit(){
 		
 		try{
 			Thread.sleep(5);
